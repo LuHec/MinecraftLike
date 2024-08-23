@@ -1,0 +1,102 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-06-14-135",
+    "AssetList": [
+        {
+            "Address": "Cube",
+            "AssetPath": "Assets/Resources/Prefabs/Cube.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Sphere",
+            "AssetPath": "Assets/Resources/Prefabs/Sphere.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Root",
+            "AssetPath": "Assets/Resources/Scenes/Root.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "Dirt",
+            "AssetPath": "Assets/Resources/Materials/Dirt.mat",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_resources_prefabs.bundle",
+            "UnityCRC": 748786661,
+            "FileHash": "67d698ddc506e859ef5b254898cc34a4",
+            "FileCRC": "bd8c7ef3",
+            "FileSize": 3558,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                3,
+                4
+            ]
+        },
+        {
+            "BundleName": "assets_resources_scenes.bundle",
+            "UnityCRC": 3088579949,
+            "FileHash": "a71f0e593bfb5316f7b8e4299f8ed345",
+            "FileCRC": "fc61ca69",
+            "FileSize": 120679,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                2,
+                4
+            ]
+        },
+        {
+            "BundleName": "assets_resources_materials.bundle",
+            "UnityCRC": 2497022569,
+            "FileHash": "07e719f5d6935e57f7e537ba2d357c19",
+            "FileCRC": "98245851",
+            "FileSize": 2935,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                4
+            ]
+        },
+        {
+            "BundleName": "share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 3206892875,
+            "FileHash": "8679b33775623df4da94e1d7c43eeb4a",
+            "FileCRC": "31fb3400",
+            "FileSize": 3023,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                4
+            ]
+        },
+        {
+            "BundleName": "unityshaders.bundle",
+            "UnityCRC": 661859052,
+            "FileHash": "b562cf2d7a2d7941247ed3648727bc22",
+            "FileCRC": "22216bd3",
+            "FileSize": 49552,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
