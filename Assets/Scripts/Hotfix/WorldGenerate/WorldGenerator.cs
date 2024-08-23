@@ -6,12 +6,12 @@ public class WorldGenerator : MonoBehaviour
     private const int CHUNK_WIDTH = 16;
     private const int CHUNK_HEIGHT = 64;
     public Material material;
-    private WorldBiomeSource mWorldBiomeSource;
+    // private WorldBiomeSource mWorldBiomeSource;
 
     void Start()
     {
         // 4096 : 1
-        mWorldBiomeSource = new WorldBiomeSource(114L);
+        // mWorldBiomeSource = new WorldBiomeSource(114L);
         
         for (int x = 0; x < 32; x++)
         {

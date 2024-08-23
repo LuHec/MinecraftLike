@@ -117,7 +117,9 @@ namespace vm
     public:
         inline const StackFrames* GetStackFrames()
         {
-            return GetStackFramesRaw();
+            StackFrames* stackFrames = GetStackFramesRaw();
+            hybridclr::interpreter::InterpreterModule::GetCurrentThreadMachineState().SetupFramesDebugInfo(stackFrames);
+            return stackFrames;
         }
 
         inline const StackFrames* GetCachedStackFrames(int32_t depth, const void* stackPointer)

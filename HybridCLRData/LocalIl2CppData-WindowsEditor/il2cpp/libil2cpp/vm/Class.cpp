@@ -2143,7 +2143,7 @@ namespace vm
             const hybridclr::interpreter::InterpFrame* frame = state.GetTopFrame();
             if (frame)
             {
-                const Il2CppImage* interpImage = frame->method->method->klass->image;
+                const Il2CppImage* interpImage = frame->method->klass->image;
                 if (interpImage != image)
                 {
                     klass = Image::FromTypeNameParseInfo(interpImage, info, searchFlags & kTypeSearchFlagIgnoreCase);

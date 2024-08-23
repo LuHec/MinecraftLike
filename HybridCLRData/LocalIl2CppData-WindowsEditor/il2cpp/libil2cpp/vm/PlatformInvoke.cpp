@@ -20,6 +20,7 @@
 
 #include "hybridclr/metadata/MetadataUtil.h"
 #include "hybridclr/metadata/MetadataModule.h"
+#include "hybridclr/interpreter/InterpreterModule.h"
 
 #include <stdint.h>
 #include <algorithm>
@@ -442,7 +443,7 @@ namespace vm
         if (method && hybridclr::metadata::IsInterpreterImplement(method))
         {
             Il2CppCallConvention callConvention = GetDelegateCallConvention(d);
-            return reinterpret_cast<intptr_t>(hybridclr::metadata::MetadataModule::GetReversePInvokeWrapper(d->method->klass->image, method, callConvention));
+            return reinterpret_cast<intptr_t>(hybridclr::interpreter::InterpreterModule::GetReversePInvokeWrapper(d->method->klass->image, method, callConvention));
         }
 
         Il2CppMethodPointer reversePInvokeWrapper = MetadataCache::GetReversePInvokeWrapper(d->method->klass->image, d->method);

@@ -3,6 +3,10 @@
 #include <string.h>
 #include "hybridclr/generated/UnityVersion.h"
 
+#if HYBRIDCLR_UNITY_VERSION >= 20220333
+#define SUPPORT_METHOD_RETURN_TYPE_CUSTOM_ATTRIBUTE 1
+#endif
+
 /* first setup platform defines*/
 #include "os/c-api/il2cpp-config-platforms.h"
 #include "os/c-api/il2cpp-config-api-platforms.h"
