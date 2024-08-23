@@ -1,0 +1,29 @@
+// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+struct PixelStructure {
+    float4 color;
+};
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+// 输出结果，地图绘制目标
+RWTexture2D<float4> Result;
+RWStructuredBuffer<PixelStructure> dataBuffer;
+float size;
+
+// SV_GroupID为线程组ID (x,y,z)
+// SV_GroupThreadID:某个线程组内的线程ID，不同线程组间ID会重复
+// SV_DispatchThreadID:所有线程组的线程ID，不同线程组间ID唯一
+// SV_GroupIndex：某个线程组内，将线程转为一维数组后的下标
+
+// 一个线程组的大小
+[numthreads(16,16,1)]
+void CSMain (uint3 id : SV_DispatchThreadID, uint3 gid : SV_GroupID, uint index : SV_GroupIndex)
+{
+    // // dispatch(size / 256)
+    // int pixelIdx = gid.x * 256 + index;
+    // Result[id.xy] = dataBuffer[pixelIdx].color;
+    int pixelIdx = id.y * size + id.x;
+    Result[id.xy] = dataBuffer[pixelIdx].color;
+}
