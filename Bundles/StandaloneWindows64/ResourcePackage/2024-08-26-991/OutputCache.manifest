@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1219194600
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: resourcepackage_assets_toabpack_prefabs.bundle
+      Dependencies:
+        Dependency_0: resourcepackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+    Info_1:
+      Name: resourcepackage_assets_toabpack_scenes.bundle
+      Dependencies:
+        Dependency_0: resourcepackage_assets_toabpack_materials.bundle
+    Info_2:
+      Name: resourcepackage_assets_toabpack_materials.bundle
+      Dependencies:
+        Dependency_0: resourcepackage_unityshaders.bundle
+    Info_3:
+      Name: resourcepackage_unityshaders.bundle
+      Dependencies: {}
+    Info_4:
+      Name: resourcepackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+      Dependencies:
+        Dependency_0: resourcepackage_unityshaders.bundle

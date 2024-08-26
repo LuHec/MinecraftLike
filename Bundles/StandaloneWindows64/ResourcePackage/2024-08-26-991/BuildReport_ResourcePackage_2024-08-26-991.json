@@ -1,0 +1,191 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.2",
+        "UnityVersion": "2022.3.15f1",
+        "BuildDate": "2024/8/26 16:31:29",
+        "BuildSeconds": 3,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "ResourcePackage",
+        "BuildPackageVersion": "2024-08-26-991",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 9,
+        "MainAssetTotalCount": 7,
+        "AllBundleTotalCount": 5,
+        "AllBundleTotalSize": 181737,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "Cube",
+            "AssetPath": "Assets/ToABPack/Prefabs/Cube.prefab",
+            "AssetGUID": "30c409df7ccab424ea1e06be97d0ab00",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_prefabs.bundle",
+            "MainBundleSize": 3567,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Sphere",
+            "AssetPath": "Assets/ToABPack/Prefabs/Sphere.prefab",
+            "AssetGUID": "3cec06233688a834292e5fb369f7b951",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_prefabs.bundle",
+            "MainBundleSize": 3567,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Root",
+            "AssetPath": "Assets/ToABPack/Scenes/Root.unity",
+            "AssetGUID": "42c2e74eec197c7418a697973e85fe6f",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_scenes.bundle",
+            "MainBundleSize": 120774,
+            "DependAssets": [
+                "Assets/ToABPack/Materials/Dirt.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Dirt",
+            "AssetPath": "Assets/ToABPack/Materials/Dirt.mat",
+            "AssetGUID": "4a890410810d2d74ab043d2bf6bddd45",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_materials.bundle",
+            "MainBundleSize": 3685,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "M_MapShader",
+            "AssetPath": "Assets/ToABPack/Materials/M_MapShader.mat",
+            "AssetGUID": "0825db1945094794d91bbd3e2bfa91cd",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_materials.bundle",
+            "MainBundleSize": 3685,
+            "DependAssets": [
+                "Assets/ToABPack/Materials/MapShader.shader"
+            ]
+        },
+        {
+            "Address": "New Render Texture",
+            "AssetPath": "Assets/ToABPack/Materials/New Render Texture.renderTexture",
+            "AssetGUID": "4f5d91f95fc64044184e0e69f920192a",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_assets_toabpack_materials.bundle",
+            "MainBundleSize": 3685,
+            "DependAssets": []
+        },
+        {
+            "Address": "MapShader",
+            "AssetPath": "Assets/ToABPack/Materials/MapShader.shader",
+            "AssetGUID": "8e6ae0d45ccc5264ea1c683d9237b9e6",
+            "AssetTags": [],
+            "MainBundleName": "resourcepackage_unityshaders.bundle",
+            "MainBundleSize": 50677,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "resourcepackage_assets_toabpack_prefabs.bundle",
+            "FileName": "0224778ce1ea8ec58bb13a0c091777e0.bundle",
+            "FileHash": "0224778ce1ea8ec58bb13a0c091777e0",
+            "FileCRC": "13b6704e",
+            "FileSize": 3567,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "resourcepackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "resourcepackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/ToABPack/Prefabs/Cube.prefab",
+                "Assets/ToABPack/Prefabs/Sphere.prefab"
+            ]
+        },
+        {
+            "BundleName": "resourcepackage_assets_toabpack_scenes.bundle",
+            "FileName": "418f3fcbd6440382b0fbec7ea2dd42f7.bundle",
+            "FileHash": "418f3fcbd6440382b0fbec7ea2dd42f7",
+            "FileCRC": "ffd74805",
+            "FileSize": 120774,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "resourcepackage_assets_toabpack_materials.bundle",
+                "resourcepackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/ToABPack/Scenes/Root.unity"
+            ]
+        },
+        {
+            "BundleName": "resourcepackage_assets_toabpack_materials.bundle",
+            "FileName": "6de47e97140e671e6a384e5a89dd3f17.bundle",
+            "FileHash": "6de47e97140e671e6a384e5a89dd3f17",
+            "FileCRC": "16bbc0f0",
+            "FileSize": 3685,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "resourcepackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/ToABPack/Materials/Dirt.mat",
+                "Assets/ToABPack/Materials/M_MapShader.mat",
+                "Assets/ToABPack/Materials/New Render Texture.renderTexture"
+            ]
+        },
+        {
+            "BundleName": "resourcepackage_unityshaders.bundle",
+            "FileName": "97a1bc37b3bb754ec17a4e261c6a1fc9.bundle",
+            "FileHash": "97a1bc37b3bb754ec17a4e261c6a1fc9",
+            "FileCRC": "5368b871",
+            "FileSize": 50677,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/ToABPack/Materials/MapShader.shader",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "BundleName": "resourcepackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "6d5a54444b641456f1a567a35976af2d.bundle",
+            "FileHash": "6d5a54444b641456f1a567a35976af2d",
+            "FileCRC": "d80b357f",
+            "FileSize": 3034,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "resourcepackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

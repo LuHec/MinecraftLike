@@ -5,6 +5,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// {{ AOT assemblies
 	public static readonly IReadOnlyList<string> PatchedAOTAssemblyList = new List<string>
 	{
+		"UniTask.dll",
 		"UnityEngine.CoreModule.dll",
 		"YooAsset.dll",
 		"mscorlib.dll",
@@ -15,6 +16,8 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// }} 
 
 	// {{ AOT generic types
+	// Cysharp.Threading.Tasks.ITaskPoolNode<object>
+	// Cysharp.Threading.Tasks.UniTaskCompletionSourceCore<object>
 	// System.Action<UnityEngine.Vector3>
 	// System.Action<int>
 	// System.Action<object>
@@ -48,6 +51,10 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 
 	public void RefMethods()
 	{
+		// Cysharp.Threading.Tasks.UniTask.Awaiter Cysharp.Threading.Tasks.EnumeratorAsyncExtensions.GetAwaiter<object>(object)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,MainScene.<Run>d__0>(Cysharp.Threading.Tasks.UniTask.Awaiter&,MainScene.<Run>d__0&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.YieldAwaitable.Awaiter,MainScene.<Run>d__0>(Cysharp.Threading.Tasks.YieldAwaitable.Awaiter&,MainScene.<Run>d__0&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<MainScene.<Run>d__0>(MainScene.<Run>d__0&)
 		// object UnityEngine.GameObject.AddComponent<object>()
 		// YooAsset.AssetHandle YooAsset.ResourcePackage.LoadAssetAsync<object>(string,uint)
 		// YooAsset.AssetHandle YooAsset.ResourcePackage.LoadAssetSync<object>(string)

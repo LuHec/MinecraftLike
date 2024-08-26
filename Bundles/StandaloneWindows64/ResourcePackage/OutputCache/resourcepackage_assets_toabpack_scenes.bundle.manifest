@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 563731133
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e982fa02dc27fb330cbcab08ff75c839
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 526a855f6395544489756b3a759d545a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e982fa02dc27fb330cbcab08ff75c839
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aed96e3f9fe83b64596b95e8ef4a0314, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 196
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ToABPack/Scenes/Root.unity
+Dependencies:
+- D:/Unity/MinecraftLike/Bundles/StandaloneWindows64/ResourcePackage/OutputCache/resourcepackage_assets_toabpack_materials.bundle

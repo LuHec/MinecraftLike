@@ -1,0 +1,31 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "RawFileBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-08-26-993",
+    "AssetList": [
+        {
+            "Address": "MineHotFix.dll",
+            "AssetPath": "Assets/ToABPack/HotUpdateDll/MineHotFix.dll.txt",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_assets_toabpack_hotupdatedll.bundle",
+            "UnityCRC": 0,
+            "FileHash": "1f5b08fa992aad1ff67d1ce5d11a2771",
+            "FileCRC": "78eb3584",
+            "FileSize": 10752,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

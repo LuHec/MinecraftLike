@@ -1,0 +1,58 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.2",
+        "UnityVersion": "2022.3.15f1",
+        "BuildDate": "2024/8/26 16:33:42",
+        "BuildSeconds": 0,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "RawFileBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-08-26-993",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "EnableSharePackRule": false,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 0,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": false,
+        "AssetFileTotalCount": 1,
+        "MainAssetTotalCount": 1,
+        "AllBundleTotalCount": 1,
+        "AllBundleTotalSize": 10752,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "MineHotFix.dll",
+            "AssetPath": "Assets/ToABPack/HotUpdateDll/MineHotFix.dll.txt",
+            "AssetGUID": "0187811f239cfef478995028e98dec44",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_toabpack_hotupdatedll.bundle",
+            "MainBundleSize": 10752,
+            "DependAssets": []
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "defaultpackage_assets_toabpack_hotupdatedll.bundle",
+            "FileName": "1f5b08fa992aad1ff67d1ce5d11a2771.bundle",
+            "FileHash": "1f5b08fa992aad1ff67d1ce5d11a2771",
+            "FileCRC": "78eb3584",
+            "FileSize": 10752,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/ToABPack/HotUpdateDll/MineHotFix.dll.txt"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

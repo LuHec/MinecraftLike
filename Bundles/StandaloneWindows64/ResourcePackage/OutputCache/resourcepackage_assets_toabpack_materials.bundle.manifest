@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 3916383955
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f894e3a3c97848d6bf78d97fcac756e6
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a53ea918fa9c387db1a4cc21a1f86878
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f894e3a3c97848d6bf78d97fcac756e6
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/ToABPack/Materials/Dirt.mat
+- Assets/ToABPack/Materials/M_MapShader.mat
+- Assets/ToABPack/Materials/New Render Texture.renderTexture
+Dependencies:
+- D:/Unity/MinecraftLike/Bundles/StandaloneWindows64/ResourcePackage/OutputCache/resourcepackage_unityshaders.bundle

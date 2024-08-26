@@ -16,6 +16,43 @@ MonoBehaviour:
   ShowEditorAlias: 0
   UniqueBundleName: 1
   Packages:
+  - PackageName: ResourcePackage
+    PackageDesc: 
+    EnableAddressable: 1
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
+    Groups:
+    - GroupName: Default Group
+      GroupDesc: 
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/ToABPack/Prefabs
+        CollectorGUID: 00c1ce0150db5194696b65f2d0cd5ecb
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/ToABPack/Scenes
+        CollectorGUID: 76feaebd54e8794438110fd53bce1151
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/ToABPack/Materials
+        CollectorGUID: d7cdc001cfd748840860614e20a78706
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
   - PackageName: DefaultPackage
     PackageDesc: 
     EnableAddressable: 1
@@ -29,24 +66,8 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Resources/Prefabs
-        CollectorGUID: 00c1ce0150db5194696b65f2d0cd5ecb
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
-      - CollectPath: Assets/Resources/Scenes
-        CollectorGUID: 76feaebd54e8794438110fd53bce1151
-        CollectorType: 0
-        AddressRuleName: AddressByFileName
-        PackRuleName: PackDirectory
-        FilterRuleName: CollectAll
-        AssetTags: 
-        UserData: 
-      - CollectPath: Assets/Resources/Materials
-        CollectorGUID: d7cdc001cfd748840860614e20a78706
+      - CollectPath: Assets/ToABPack/HotUpdateDll
+        CollectorGUID: 0d03e4e7aba04a44b9da5607a12df1d4
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
