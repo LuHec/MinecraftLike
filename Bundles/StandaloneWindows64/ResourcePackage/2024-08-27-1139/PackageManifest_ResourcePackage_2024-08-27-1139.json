@@ -6,7 +6,7 @@
     "OutputNameStyle": 0,
     "BuildPipeline": "BuiltinBuildPipeline",
     "PackageName": "ResourcePackage",
-    "PackageVersion": "2024-08-26-991",
+    "PackageVersion": "2024-08-27-1139",
     "AssetList": [
         {
             "Address": "Cube",

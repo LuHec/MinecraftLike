@@ -534,9 +534,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73d5d5a7ee11415bb55ac89bcbad186c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayMode: 1
-  DefaultHostServer: http://192.168.3.3/Package/
-  FallbackHostServer: http://192.168.3.3/Package/
+  PlayMode: 2
+  DefaultHostServer: http://192.168.255.10/Pak/
+  FallbackHostServer: http://192.168.255.10/Pak/
   HotDllName: MineHotFix.dll
   HotUpdatePackageName: DefaultPackage
   BundlesToLoad:

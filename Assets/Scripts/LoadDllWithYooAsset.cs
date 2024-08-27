@@ -19,9 +19,9 @@ public class LoadDllWithYooAsset : MonoBehaviour
 
     //CDN地址或这里可以写你的hfs创建的本地链接地址
 
-    public string DefaultHostServer = "http://192.168.3.3/Package/"; //默认的CDN地址
+    public string DefaultHostServer = "http://192.168.255.10/Pak/"; //默认的CDN地址
 
-    public string FallbackHostServer = "http://192.168.3.3/Package/"; //默认链接失败后，会尝试这个地址
+    public string FallbackHostServer = "http://192.168.255.10/Pak/"; //默认链接失败后，会尝试这个地址
 
     //热更新的dll名称、注意这里是因为使用了yooasset的打包规则所以直接资源原名称读取即可
     public string HotDllName = "hotfix.dll";
@@ -88,7 +88,8 @@ public class LoadDllWithYooAsset : MonoBehaviour
                 var initParametersHostPlayMode = new HostPlayModeParameters();
 
                 initParametersHostPlayMode.BuildinQueryServices = new GameQueryServices();
-                initParametersHostPlayMode.RemoteServices = new RemoteServices(DefaultHostServer, FallbackHostServer);
+                // 服务器地址为根目录+包名
+                initParametersHostPlayMode.RemoteServices = new RemoteServices(DefaultHostServer + pakName, FallbackHostServer + pakName);
                 // 资源解密类，暂时用不到
                 // initParametersHostPlayMode.DecryptionServices = new FileStreamDecryption();
 

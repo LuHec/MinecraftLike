@@ -2,13 +2,13 @@
     "Summary": {
         "YooVersion": "2.1.2",
         "UnityVersion": "2022.3.15f1",
-        "BuildDate": "2024/8/26 16:33:42",
+        "BuildDate": "2024/8/27 19:08:10",
         "BuildSeconds": 0,
         "BuildTarget": 19,
         "BuildMode": 0,
         "BuildPipeline": "RawFileBuildPipeline",
         "BuildPackageName": "DefaultPackage",
-        "BuildPackageVersion": "2024-08-26-993",
+        "BuildPackageVersion": "2024-08-27-1148",
         "UniqueBundleName": true,
         "EnableAddressable": true,
         "LocationToLower": false,
@@ -42,9 +42,9 @@
     "BundleInfos": [
         {
             "BundleName": "defaultpackage_assets_toabpack_hotupdatedll.bundle",
-            "FileName": "1f5b08fa992aad1ff67d1ce5d11a2771.bundle",
-            "FileHash": "1f5b08fa992aad1ff67d1ce5d11a2771",
-            "FileCRC": "78eb3584",
+            "FileName": "be0d513eb259ebd8796a91621715b351.bundle",
+            "FileHash": "be0d513eb259ebd8796a91621715b351",
+            "FileCRC": "0360e80e",
             "FileSize": 10752,
             "Encrypted": false,
             "Tags": [],

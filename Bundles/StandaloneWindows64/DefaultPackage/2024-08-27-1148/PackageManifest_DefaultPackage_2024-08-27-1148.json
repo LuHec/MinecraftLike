@@ -6,7 +6,7 @@
     "OutputNameStyle": 0,
     "BuildPipeline": "RawFileBuildPipeline",
     "PackageName": "DefaultPackage",
-    "PackageVersion": "2024-08-26-993",
+    "PackageVersion": "2024-08-27-1148",
     "AssetList": [
         {
             "Address": "MineHotFix.dll",
@@ -20,8 +20,8 @@
         {
             "BundleName": "defaultpackage_assets_toabpack_hotupdatedll.bundle",
             "UnityCRC": 0,
-            "FileHash": "1f5b08fa992aad1ff67d1ce5d11a2771",
-            "FileCRC": "78eb3584",
+            "FileHash": "be0d513eb259ebd8796a91621715b351",
+            "FileCRC": "0360e80e",
             "FileSize": 10752,
             "Encrypted": false,
             "Tags": [],

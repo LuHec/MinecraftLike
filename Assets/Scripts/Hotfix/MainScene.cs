@@ -8,7 +8,7 @@ public class MainScene : MonoBehaviour
 {
     public static async void Run()
     {
-        Debug.Log("Hello, World!");
+        Debug.Log("Hello, World!Update At 19：06");
         
         var package = YooAssets.GetPackage("ResourcePackage");
 
